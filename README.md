@@ -2,7 +2,7 @@
 
 ## Features
 * Single header (you only need to download one file)
-* No dependencies, raw C
+* No dependencies, standard C
 * Optimized for speed
 * Seeded from hardware clock
 
