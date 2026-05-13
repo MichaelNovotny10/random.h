@@ -50,6 +50,18 @@ Must be defined **before** the include:
 ## Platform notes
 Requires x86 for rdtsc seeding. On other platforms, define `XRAND_FIXED_SEED` or call `xrandSeed()` manually before generating numbers.
 
+## Roadmap
+
+- [x] Core implementation
+- [ ] Cross-platform support
+- [ ] `XRAND_IMPLEMENTATION` guard (stb-style)
+- [ ] Thread safety
+- [ ] C++ compatibility
+- [ ] More customization options (`xrandDouble`, `xrandShuffle`, `xrandWeighted`, `xrandString`)
+- [ ] Speed & quality improvements
+- [ ] Benchmarks in README
+- [ ] GitHub Releases with versioned header downloads
+
 ## License
 Licensed under the MIT License.
 See: https://opensource.org/licenses/MIT
