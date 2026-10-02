@@ -54,13 +54,11 @@ Requires x86 for rdtsc seeding. On other platforms, define `XRAND_FIXED_SEED` or
 
 - [x] Core implementation
 - [ ] Cross-platform support
-- [ ] `XRAND_IMPLEMENTATION` guard (stb-style)
-- [ ] Thread safety
-- [ ] C++ compatibility
+- [ ] `XRAND_IMPLEMENTATION` guard
 - [ ] More customization options (`xrandDouble`, `xrandShuffle`, `xrandWeighted`, `xrandString`)
 - [ ] Speed & quality improvements
 - [ ] Benchmarks in README
-- [ ] GitHub Releases with versioned header downloads
+- [ ] GitHub Releases
 
 ## License
 Licensed under the MIT License.
